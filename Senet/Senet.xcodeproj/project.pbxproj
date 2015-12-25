@@ -39,6 +39,8 @@
 		D036F0891C2D20CC00677F45 /* Senet.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Senet.cpp; sourceTree = "<group>"; };
 		D036F08A1C2D20CC00677F45 /* stdafx.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = stdafx.cpp; sourceTree = "<group>"; };
 		D036F08D1C2D20CC00677F45 /* ViewController.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ViewController.cpp; sourceTree = "<group>"; };
+		D036F0951C2D257A00677F45 /* Senet.vcxproj */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = Senet.vcxproj; sourceTree = "<group>"; };
+		D036F0961C2D257A00677F45 /* Senet.vcxproj.filters */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = Senet.vcxproj.filters; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,6 +73,8 @@
 		D036F07B1C2D205700677F45 /* Senet */ = {
 			isa = PBXGroup;
 			children = (
+				D036F0951C2D257A00677F45 /* Senet.vcxproj */,
+				D036F0961C2D257A00677F45 /* Senet.vcxproj.filters */,
 				D036F0831C2D20CC00677F45 /* Board.cpp */,
 				D036F0841C2D20CC00677F45 /* BoardSquare.cpp */,
 				D036F0851C2D20CC00677F45 /* Game.cpp */,
@@ -265,6 +269,7 @@
 				D036F0821C2D205700677F45 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
