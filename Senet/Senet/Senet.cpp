@@ -7,7 +7,7 @@
 int main()
 {
 	bool isGameOver = false;
-	cout << "Greetings, Pharoh.";
+	cout << "Greetings, Pharoh.\n";
 	srand(time(NULL));
 	Board* gameBoard = new Board();
 	Game* gameState = setUpGameObject();
