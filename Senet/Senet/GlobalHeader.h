@@ -5,7 +5,6 @@
 #include <iostream>
 #include <string>
 #include <ctime>
-#include "stdafx.h"
 
 using namespace std;
 

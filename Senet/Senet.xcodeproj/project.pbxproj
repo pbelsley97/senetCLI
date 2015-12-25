@@ -12,7 +12,6 @@
 		D036F0901C2D20CC00677F45 /* Game.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D036F0851C2D20CC00677F45 /* Game.cpp */; };
 		D036F0911C2D20CC00677F45 /* Peice.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D036F0871C2D20CC00677F45 /* Peice.cpp */; };
 		D036F0921C2D20CC00677F45 /* Senet.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D036F0891C2D20CC00677F45 /* Senet.cpp */; };
-		D036F0931C2D20CC00677F45 /* stdafx.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D036F08A1C2D20CC00677F45 /* stdafx.cpp */; };
 		D036F0941C2D20CC00677F45 /* ViewController.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D036F08D1C2D20CC00677F45 /* ViewController.cpp */; };
 /* End PBXBuildFile section */
 
@@ -37,7 +36,6 @@
 		D036F0871C2D20CC00677F45 /* Peice.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Peice.cpp; sourceTree = "<group>"; };
 		D036F0881C2D20CC00677F45 /* ReadMe.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = ReadMe.txt; sourceTree = "<group>"; };
 		D036F0891C2D20CC00677F45 /* Senet.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Senet.cpp; sourceTree = "<group>"; };
-		D036F08A1C2D20CC00677F45 /* stdafx.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = stdafx.cpp; sourceTree = "<group>"; };
 		D036F08D1C2D20CC00677F45 /* ViewController.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ViewController.cpp; sourceTree = "<group>"; };
 		D036F0951C2D257A00677F45 /* Senet.vcxproj */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = Senet.vcxproj; sourceTree = "<group>"; };
 		D036F0961C2D257A00677F45 /* Senet.vcxproj.filters */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = Senet.vcxproj.filters; sourceTree = "<group>"; };
@@ -82,7 +80,6 @@
 				D036F0871C2D20CC00677F45 /* Peice.cpp */,
 				D036F0881C2D20CC00677F45 /* ReadMe.txt */,
 				D036F0891C2D20CC00677F45 /* Senet.cpp */,
-				D036F08A1C2D20CC00677F45 /* stdafx.cpp */,
 				D036F08D1C2D20CC00677F45 /* ViewController.cpp */,
 			);
 			path = Senet;
@@ -149,7 +146,6 @@
 				D036F0941C2D20CC00677F45 /* ViewController.cpp in Sources */,
 				D036F0911C2D20CC00677F45 /* Peice.cpp in Sources */,
 				D036F0901C2D20CC00677F45 /* Game.cpp in Sources */,
-				D036F0931C2D20CC00677F45 /* stdafx.cpp in Sources */,
 				D036F0921C2D20CC00677F45 /* Senet.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
