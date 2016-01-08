@@ -120,3 +120,13 @@ void BoardSquare::setPeiceBoardIndex(int newIndex)
 {
 	PeiceInSquare->setBoardIndex(newIndex);
 }
+
+void BoardSquare::setPeiceProtected(bool willProtect)
+{
+	PeiceInSquare->setProtected(willProtect);
+}
+
+void BoardSquare::setPeiceBlocking(bool willBlock)
+{
+	PeiceInSquare->setBlocking(willBlock);
+}

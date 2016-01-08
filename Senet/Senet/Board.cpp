@@ -94,3 +94,28 @@ PeiceColor Board::getColorOfPeiceAtIndex(int index)
 {
 	return theBoard[index]->colorOfOccupyingPeice();
 }
+
+void Board::scanForBlocksAndProtection()
+{
+	for each (BoardSquare* square in theBoard) {
+		square->setPeiceBlocking(false);
+		square->setPeiceProtected(false);
+	}
+	for (int c = 0; c < 29; c++) {
+		if ((!(theBoard[c]->isOpen())) && (!(theBoard[c + 1]->isOpen()))) {
+			if (theBoard[c]->colorOfOccupyingPeice() == theBoard[c + 1]->colorOfOccupyingPeice()) {
+				theBoard[c]->setPeiceProtected(true);
+				theBoard[c + 1]->setPeiceProtected(true);
+			}
+		}
+	}
+	for (int c = 0; c < 28; c++) {
+		if ((!(theBoard[c]->isOpen())) && (!(theBoard[c + 1]->isOpen())) && (!(theBoard[c + 2]->isOpen()))) {
+			if ((theBoard[c]->colorOfOccupyingPeice() == theBoard[c + 1]->colorOfOccupyingPeice()) && (theBoard[c]->colorOfOccupyingPeice() == theBoard[c + 2]->colorOfOccupyingPeice())) {
+				theBoard[c]->setPeiceBlocking(true);
+				theBoard[c + 1]->setPeiceBlocking(true);
+				theBoard[c + 2]->setPeiceBlocking(true);
+			}
+		}
+	}
+}

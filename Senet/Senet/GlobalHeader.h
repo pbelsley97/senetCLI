@@ -10,7 +10,7 @@ using namespace std;
 
 enum PeiceColor
 {
-	black = 1, white 
+	black = 1, white, noPeice
 };
 
 class Peice
@@ -47,6 +47,8 @@ public:
 	PeiceColor colorOfOccupyingPeice();
 	bool isPeiceProtected();
 	void setPeiceBoardIndex(int);
+	void setPeiceProtected(bool);
+	void setPeiceBlocking(bool);
 private:
 	bool occupied = false;
 	bool SafeSquare;
@@ -86,6 +88,8 @@ public:
 	bool isSpaceOpenToPeiceOfColorOnSpace(int, PeiceColor, int);
 	void movePeiceFromSquareToSquare(int, int);
 	PeiceColor getColorOfPeiceAtIndex(int);
+	void scanForBlocksAndProtection();
+
 private:
 	BoardSquare* theBoard[30];
 };
