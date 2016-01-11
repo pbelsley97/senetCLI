@@ -97,9 +97,9 @@ PeiceColor Board::getColorOfPeiceAtIndex(int index)
 
 void Board::scanForBlocksAndProtection()
 {
-	for each (BoardSquare* square in theBoard) {
-		square->setPeiceBlocking(false);
-		square->setPeiceProtected(false);
+	for (int c = 0; c < 30; c++) {
+		theBoard[c]->setPeiceBlocking(false);
+		theBoard[c]->setPeiceProtected(false);
 	}
 	for (int c = 0; c < 29; c++) {
 		if ((!(theBoard[c]->isOpen())) && (!(theBoard[c + 1]->isOpen()))) {
